@@ -15,7 +15,7 @@
 
         도커 허브는 계정만있다면, 누구든지 이미지를 올리고 내려받을 수있어, 쉽게 공유 가능
 
-        ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled.png)
+        ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled.png)
 
     - docker create & docker run & docker pull 명령어
 
@@ -29,7 +29,7 @@
 
      keypoint : 컨테이너 생성 = commit 명령어
 
-    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%201.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%201.png)
+    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%201.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%201.png)
 
 2. docker commit [options] container [repository[:tag]] >> docker commit 명령어를 통해 컨테이너 이미지를 생성
 
@@ -37,17 +37,17 @@
 
     -a = author / -m = 커밋 메세지
 
-    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%202.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%202.png)
+    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%202.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%202.png)
 
-    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%203.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%203.png)
+    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%203.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%203.pngg)
 
   3. commit_test:first 이미지로 새로운 이미지를 생성하여 commit_test:second 라고 생성
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%204.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%204.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%204.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%204.png)
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%205.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%205.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%205.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%205.png)
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%206.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%206.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%206.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%206.png)
 
 ## 2.3.2 이미지 구조 이해
 
@@ -55,18 +55,18 @@
 
     = 컨테이너뿐만 아니라 네트워크,볼륨, 이미지등 모든 도커 단위의 정보를 얻을 때 사용함
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%207.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%207.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%207.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%207.png)
 
                                                                              '''''
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%208.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%208.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%208.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%208.png)
 
 1. 이미지를 commit할 때 컨테이너에서 변경된 사항만 새로운 레이어로 저장
 2. 그 레이어를 포함한 새로운 이미지를 생성하기 때문
 
 = 전체 이미지의 실제크기는 기존 +새로운 파일 크기 ...
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%209.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%209.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%209.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%209.png)
 
 - docker rmi = 이미지 삭제 명령
     1. 도커 이미지를 삭제한다
@@ -77,7 +77,7 @@ docker stop commit_test2 && docker rm commit_test2
 docker rmi commit_test:first
 ```
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2010.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2010.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2010.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%2010.png)
 
 컨테이너를 삭제하지않고 이미지 삭제 시도 시에 오류 발생
 
@@ -149,7 +149,7 @@ docker inspect ubuntu | grep Architecture
 
 - 이미지 저장소(Repository) 생성
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2011.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2011.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2011.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%2011.png)
 
 github처럼 private와 public 이 있음
 
@@ -257,7 +257,7 @@ docker tag my-image-name:0.0 ${DOCKER_HOST_IP}:5000/my-image-name:0.0
      docker push 192.168.99.101:5000/my-image-name:0.0
     ```
 
-    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2012.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2012.png)
+    ![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2012.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%2012.png)
 
 3. **부록A를 참고해 다음 옵션을 도커 시작 옵션에 추가한 뒤에 도커 재시작**
 
@@ -291,12 +291,12 @@ pull할 때 레지스트리 컨테이너의  URL을 뒤에 입력해야함
 
 책에서는 1번 솔루션으로 Self-Signed ROOT 인증서(CA)파일 생성하여 접근 권한을 생성
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2013.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2013.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2013.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%2013.png)
 
 1. 새로운 디렉토리를 생성
 2. 디렉토리 안에서 개인 키를 생성(openssl 명령어를 설치할 필요없음)
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2014.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2014.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2014.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%2014.png)
 
     IP를 통해 Nginx 서버 컨테이너에 접근 할 것
 
@@ -312,7 +312,7 @@ echo subjectAltName = IP:${DOCKER_HOST_IP} > extfile.cnf
 
 6.  **레지스트리에 로그인 할 때, 사용할 계정과 비밀번호 를 저장하는 파일 생성**(mv명령어를 통해 위에서 생성한 cert 디렉토리안에 인증서와 같이 넣어야함)
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2015.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2015.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2015.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%2015.png)
 
 - htpasswd 설치방법
 - 데비안 계열(우분투)
@@ -331,7 +331,7 @@ yum install httpd-tools
 
                  >>>>>github의 수정사항 반영 완료 <<<<<<<<<<<<<<<
 
-![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2016.png](2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2016.png)
+![2%203%20%E1%84%83%E1%85%A9%E1%84%8F%E1%85%A5%20%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5%20Docker%20Image%2020c44330057c494c9122287494bfae89/Untitled%2016.png](https://github.com/justin95214/Docker_Study/blob/main/2.3-Docker%20Image/resource/Untitled%2016.png)
 
 ```bash
 upstream docker-registry {
