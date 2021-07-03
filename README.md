@@ -8,4 +8,4 @@
 5) 스터디 기간: 2021.06.25.~2021.09.24(총 14주)
 6) 교재 github 링크 : https://github.com/alicek106/start-docker-kubernetes/
 
-schedules 일정 Notion : https://www.notion.so/1-_Docker-Kubernetes-6b4bf228b62f4c519beeb3a92d9b0544
+schedules 일정 Notion 및 스터디 자료 링크 : https://www.notion.so/1-_Docker-Kubernetes-6b4bf228b62f4c519beeb3a92d9b0544
